@@ -42,11 +42,11 @@ const signUp = async () => {
         <View style={styles.container}>
             <View style={styles.profile1}>
                 <Image
-                source={require("../../assets/lion.png")}
+                source={require("../../assets/logo.png")}
                 style={styles.profile}
                  ></Image>
             </View>
-        <Text style={styles.text1}>Sin Of Pride</Text>
+        <Text style={styles.text1}>Remeticado</Text>
             <TextInput value={email} style={styles.input} placeholder='Email' autoCapitalize='none' onChangeText={(text) => setEmail(text)}></TextInput>
             <TextInput secureTextEntry={true} value={password} style={styles.input} placeholder='Password' autoCapitalize='none' 
             onChangeText={(text) => setPassword(text)}   ></TextInput>
@@ -75,7 +75,7 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
         flex: 1,
         justifyContent: "center",
-        backgroundColor: "#988686",
+        backgroundColor: "#f66609",
         
     },
     input: {
